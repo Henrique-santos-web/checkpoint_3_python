@@ -1,11 +1,14 @@
 import os
 import time
+import uuid
 tempo = 4
 
 
 class Conta():
-    def __init__(self):
+    def __init__(self, conta):
         self._saldo = 0.0
+        self.numero = uuid.uuid4
+        self.conta = conta
 
     
     #* Depositar e Sacar
