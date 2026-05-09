@@ -1,15 +1,11 @@
 import os
 import time
-import uuid
 tempo = 4
 
-
 class Conta():
-    def __init__(self, ):
+    def __init__(self):
         self._saldo = 0.0
-        # self.numero = uuid.uuid4
         # self.conta = conta
-        # esse --> conta <-- fica dentro do def __init__. Remoção apenas para teste
     
     #* Depositar e Sacar
     def get_saldo(self):
