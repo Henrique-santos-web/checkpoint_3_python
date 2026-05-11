@@ -47,6 +47,7 @@ class Conta():
                 else:
                     self._saldo += valor
                     print(f"Tranferência no valor de: {valor} realizada com sucesso!")
+                    time.sleep(2)
                     break
             except ValueError:
                 print("Apenas números são permitidos!")

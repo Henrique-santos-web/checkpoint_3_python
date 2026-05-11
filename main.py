@@ -70,7 +70,6 @@ def main():
                         elif opcao_saque == "2":
                             saldo_saque = float(input("Quanto você deseja sacar? "))
                             conta_poupanca.sacar(saldo_saque)
-                        time.sleep(TEMPO)
                         os.system('cls' if os.name == 'nt' else 'clear')
                         
                     case "0":
